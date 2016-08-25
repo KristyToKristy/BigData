@@ -34,9 +34,17 @@ void MulTest()
 	BigData right2("1");
 	cout<<left2*right2<<endl;
 }
+
+void DivTest()
+{
+	BigData left2("222222222222222222222222222222");
+	BigData right2("33");
+	cout << left2 / right2 << endl;
+
+}
 int main()
 {
-	 MulTest();
+	 DivTest();
 	
 	///*int a=10;
 	//int b;*/
